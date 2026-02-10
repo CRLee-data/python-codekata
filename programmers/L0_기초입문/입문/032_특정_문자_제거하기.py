@@ -3,8 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120826
 # 알고리즘: 기초
 # 작성자: 이채리
-# 작성일: 2026. 02. 10. 19:06:59
+# 작성일: 2026. 02. 10. 19:07:12
 
 def solution(my_string, letter):
-    answer = my_string.replace(letter, "")
-    return answer
+    return my_string.replace(letter, "")
